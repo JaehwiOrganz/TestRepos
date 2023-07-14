@@ -20,7 +20,7 @@ public class Member {
     private String names;
 
     @NotEmpty
-    private String emails;
+    private String dd;
 
     @Nullable
     private String ee;
