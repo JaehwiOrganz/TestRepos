@@ -17,17 +17,10 @@ public class Member {
     private String password;
 
     @NotEmpty
-    private String names;
+    private String name;
 
     @NotEmpty
-    private String dd;
+    private String email;
 
-    @Nullable
-    private String ee;
-
-    private void hello(){
-
-    }
-    private String cc;
 
 }
