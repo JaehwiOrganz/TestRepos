@@ -49,7 +49,7 @@ public class MemberRepository {
 
     /**
      * [Member 엔티티 단일조회]
-     * 회원 조회
+     * 회원 조회.
      * @param [id PK]
      * @return [Member 엔티티]
      */
