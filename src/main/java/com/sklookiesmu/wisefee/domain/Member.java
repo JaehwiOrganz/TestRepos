@@ -22,12 +22,12 @@ public class Member {
     @NotEmpty
     private String emails;
 
-    private void hello(){
-        
-    }
-
     @Nullable
-    private String bb;
+    private String ee;
+
+    private void hello(){
+
+    }
 
 
 }
