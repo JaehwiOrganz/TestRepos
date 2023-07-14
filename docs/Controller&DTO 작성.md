@@ -18,6 +18,7 @@
 
 ## 1-3. 매장용 API와 고객용 API의 엔드포인트 구분
 - 매장용과 손님용, 공용 API를 분리해서 만드므로, 경로 접두사로 다음 규칙을 따른다.
+- 패키지는 우선 shared, consumer, seller로 분리하여 작성한다.
   - 매장 - 가게 상세보기 조회 : GET /api/v1/seller/store/{id}
   - 손님 - 가게 상세보기 조회 : GET /api/v1/consumer/store/{id}
   - 공용 - 가게 상세보기 조회 : GET /api/v1/store/{id}
