@@ -28,6 +28,6 @@ public class Member {
     private void hello(){
 
     }
-
+    private String cc;
 
 }
