@@ -21,7 +21,7 @@ public class Member {
     private String names;
 
     @NotEmpty
-    private String emails;
+    private String dd;
 
     private void hello(){
         
