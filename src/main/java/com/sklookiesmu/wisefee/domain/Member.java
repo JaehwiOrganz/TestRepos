@@ -23,7 +23,7 @@ public class Member {
     private String email;
 
     @Nullable
-    private String bb;
+    private String cc;
 
 
 }
