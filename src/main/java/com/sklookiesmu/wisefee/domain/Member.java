@@ -18,10 +18,14 @@ public class Member {
     private String password;
 
     @NotEmpty
-    private String name;
+    private String names;
 
     @NotEmpty
-    private String email;
+    private String emails;
+
+    private void hello(){
+        
+    }
 
 
 }
